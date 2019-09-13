@@ -7,104 +7,112 @@
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure><!--textoAlternativo-->
+                <figure class="logo"><!--textoAlternativo-->
                     <img src="img/logo.png" alt="Logo">
                 </figure>
-                <nav>
+                <nav class="menu">
                     <!--Lista desordenada-->
                     <!--<ul></ul>-->
                     <!--Lista ordenada-->
                     <ol>
                         <li>    <!--Objeto de lista-->
-                            <a href="#portafolio">Portafolio</a>           <!--Comando para copiar line  Alt + Shif + Fleca abajo / seleciona las lineas a copiar y has lo mismo-->
+                            <a class="opcMenu" href="#portafolio">Portafolio</a>           <!--Comando para copiar line  Alt + Shif + Fleca abajo / seleciona las lineas a copiar y has lo mismo-->
                         </li>  
                         <li>    <!--Objeto de lista-->
-                            <a href="#eventos">Experiencia</a>
+                            <a class="opcMenu" href="#eventos">Experiencia</a>
                         </li>  
                         <li>    <!--Objeto de lista-->
-                            <a href="#contacto">Trabajemos Juntos</a>
+                            <a class="opcMenu" href="#contacto">Trabajemos Juntos</a>
                         </li>  
                     </ol>
                 </nav>
             </div>
         </header>
-        <section> <!--Principal-->
+        <section class="principal"> <!--Principal-->
             <h1>                <!-- Strong sirve para resaltar texto-->
                 Hola! Soy <strong>Leonidas Esteban</strong> <br> Desarrollador <strong>JavaScrip</strong> con <br> pasión por la <strong>enseñanza</strong>
             </h1>
             <img src="img/hero.jpg" alt="Imagen Principal" width="500" height="">
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (proyectos Destacados)</h2>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación de futuros creadores de aplicaciones multiplataforma</p>
-                <img src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+                <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación de futuros creadores de aplicaciones multiplataforma</p>
+                <figure class="project-imageConteiner">
+                    <img class="project-image" src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
+                </figure>
+                
             </article>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación de futuros creadores de aplicaciones multiplataforma</p>
-                <img src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
+
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+                <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación de futuros creadores de aplicaciones multiplataforma</p>
+                <figure class="project-imageConteiner">
+                    <img class="project-image" src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
+                </figure>
             </article>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación de futuros creadores de aplicaciones multiplataforma</p>
-                <img src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+                <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación de futuros creadores de aplicaciones multiplataforma</p>
+                <figure class="project-imageConteiner">
+                    <img class="project-image" src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
+                </figure>
             </article>
         </section>
-        <section id="eventos">
+        <section id="eventos" class="events">
             <h2>Mas sobre mi Experiencia</h2>
-            <article>
-                <figure>
-                    <img src="img/platzi-conf.jpg" alt="platziConf" width="500">
+            <article class="event">
+                <figure class="event-imageConteiner">
+                    <img class="event-image" src="img/platzi-conf.jpg" alt="platziConf" width="500">
                 </figure>
-                <h3>PlatziConf Mexico 2018</h3>
-                <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-                <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
+                <h3 class="event-title">PlatziConf Mexico 2018</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+                <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
             </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
+            <article class="event">
+                <figure class="event-imageConteiner">
+                    <img class="event-image" src="" alt="">
                 </figure>
-                <h3>Segundo Lugar Master Frontend</h3>
-                <p>Un evento donde pruebas ser el mejor frontend solo usando tus reflejos y memoria. Sin internet, sin stackoverflow, adrenalina pura.</p>
-                <a href="">Ir a instagram</a>
+                <h3 class="event-title">Segundo Lugar Master Frontend</h3>
+                <p class="event-description">Un evento donde pruebas ser el mejor frontend solo usando tus reflejos y memoria. Sin internet, sin stackoverflow, adrenalina pura.</p>
+                <a class="event-url" href="">Ir a instagram</a>
             </article>
-            <article>
-                <figure>
-                    <img src="img/platzi-conf.jpg" alt="platziConf" width="500">
+            <article class="event">
+                <figure class="event-imageConteiner">
+                    <img class="event-image" src="img/platzi-conf.jpg" alt="platziConf" width="500">
                 </figure>
-                <h3>PlatziConf Mexico 2018</h3>
-                <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-                <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a> 
+                <h3 class="event-title">PlatziConf Mexico 2018</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+                <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a> 
             </article>
-            <article>
-                <figure>
-                    <img src="" alt="">
+            <article class="event">
+                <figure class="event-imageConteiner">
+                    <img class="event-image" src="" alt="">
                 </figure>
-                <h3>Segundo Lugar Master Frontend</h3>
-                <p>Un evento donde pruebas ser el mejor frontend solo usando tus reflejos y memoria. Sin internet, sin stackoverflow, adrenalina pura.</p>
-                <a href="">Ir a instagram</a>
+                <h3 class="event-title">Segundo Lugar Master Frontend</h3>
+                <p class="event-description">Un evento donde pruebas ser el mejor frontend solo usando tus reflejos y memoria. Sin internet, sin stackoverflow, adrenalina pura.</p>
+                <a class="event-url" href="">Ir a instagram</a>
             </article>
         </section>
-        <section id="contacto">  <!--Formulario de contacto-->
-            <form action="/suscripcion/">
+        <section id="contacto" class="contact">  <!--Formulario de contacto-->
+            <form action="/suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="Dejame tu email">
+                <input type="text" placeholder="Dejame tu email" id="email">
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
     </body>
 </html>

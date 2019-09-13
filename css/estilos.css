@@ -8,4 +8,30 @@ body {
     background: red;
 }
 
+/**/
+
+
 /*Selector de etiqueta*/
+/*Se usa el nombre de la etiqueta para el selector*/
+/*body {
+    background: red;
+}*/
+
+/*Selector Descendente*/
+/*body header div nav ol li a*/
+/*body header div nav ol li a {
+    background: red;
+}*/
+
+/*Selector de Clase*/
+/*Sepuede multiplicar y hacer una serie de estilos identicos para muchas etiquetas: Se utiliza " . " para hacer referencia de un selector de clase .ejemplo*/
+/*.estiloCabecera {
+    background: red;
+}*/
+
+
+/*Selector de id*/
+/*Los selectores de este tipo son unicos, ya que no se repiten: Se utiliza " # " para hacer referencia de un selector de id #ejemplo*/
+/*#estiloFooter {
+    background: red;
+}*/
