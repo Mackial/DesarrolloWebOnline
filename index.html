@@ -10,6 +10,7 @@
     </head>
     <body>
         <header class="header">
+            <div class="container">
                 <figure class="logo"><!--textoAlternativo-->
                     <img src="img/logo.png" height="50" alt="Logo">
                 </figure>
@@ -29,15 +30,19 @@
                         </li>  
                     </ol>
                 </nav>
+            </div>
         </header>
         <section class="principal"> <!--Principal-->
-            <h1>                <!-- Strong sirve para resaltar texto-->
-                Hola! Soy <strong>Leonidas Esteban</strong> <br> Desarrollador <strong>JavaScrip</strong> con <br> pasión por la <strong>enseñanza</strong>
-            </h1>
-            <!--<img src="img/hero.jpg" alt="Imagen Principal" width="500" height="">-->
+            <div class="container">
+                <h1>                <!-- Strong sirve para resaltar texto-->
+                    Hola! Soy <strong>Leonidas Esteban</strong> <br> Desarrollador <strong>JavaScrip</strong> con <br> pasión por la <strong>enseñanza</strong>
+                </h1>
+                <img class="hero-image" src="img/hero.jpg" alt="Imagen Principal" width="500" height="300">
+            </div>
         </section>
         <section id="portafolio" class="portfolio">
-            <h2>Portafolio (proyectos Destacados)</h2>
+            <div class="container">
+                <h2>Portafolio (proyectos Destacados)</h2>
             <article class="project">
                 <div class="project-details">
                     <h3 class="project-title">Platzi Video</h3>
@@ -76,10 +81,16 @@
                         <img class="project-image" src="img/platzi-video-react-native.png" alt="Proyecto del curso react" width="500">
                     </figure>
             </article>
+            </div>
+            
         </section>
-        <h2 class="event-list-title">Mas sobre mi Experiencia</h2>
+        <div class="container">
+            <h2 class="event-list-title">Mas sobre mi Experiencia</h2>
+
+        </div>
         <section id="eventos" class="event-list">
-            <article class="event">
+            <div class="container">
+                <article class="event">
                 <figure class="event-imageConteiner">
                     <img class="event-image" src="img/platzi-conf.jpg" alt="platziConf" width="500">
                 </figure>
@@ -109,6 +120,7 @@
                     <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a> 
                 </div>
             </article>
+
             <article class="event">
                 <figure class="event-imageConteiner">
                         <img class="event-image" src="img/platzi-conf.jpg" alt="platziConf" width="500">
@@ -119,29 +131,35 @@
                     <a class="event-url" href="">Ir a instagram</a>
                 </div>
             </article>
+            </div>
+            
         </section>
         <section id="contacto" class="contact">  <!--Formulario de contacto-->
-            <form action="/suscripcion/" class="form-email">
-                <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="Dejame tu email" id="email">
-                <button>Enviar</button>
-            </form>
-            <div class="social">
-                <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
-                <a href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
-                <a href="https://github.com/leonidasesteban" class="social-link github"></a>
-                <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+            <div class="container">
+                <form action="/suscripcion/" class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Dejame tu email" id="email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
+                    <a href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
+                    <a href="https://github.com/leonidasesteban" class="social-link github"></a>
+                    <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+                </div>
             </div>
+            
         </section>
         <footer class="footer">
-            <div>
-                <p>Curso de desarrollo web online 2018 <img src="./img/platzi.png"  width="80" alt="logo platzi"></p>
+            <div class="container">
+                <div>
+                    <p>Curso de desarrollo web online 2018 <img src="./img/platzi.png"  width="80" alt="logo platzi"></p>
+                </div>
+                    <p>
+                        Designed with love by <a href="https://twitter/thespianartist">@thespianartist</a>
+                    </p>
             </div>
-                <p>
-                    Designed with love by <a href="https://twitter/thespianartist">@thespianartist</a>
-                </p>    
-            <div>
-            </div>
+                
         </footer>
     </body>
 </html>
