@@ -176,6 +176,108 @@ figure{
     color: white;
 }
 
+.event-list{
+    display: flex;
+}
+
 .event{
-    border: 1px solid red;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+
+}
+
+.even img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    color: #026fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+.contact{
+    background-color: #026fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter{
+    background-image: url('../img/twitter.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../img/facebook.svg');
+}
+
+.social-link.github{
+    background-image: url('../img/github.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../img/instagram.svg');
+}
+
+.form-email input{
+    border-color: gray;
+    padding: 10px 20px 5px 25px;
+    background-image: url('../img/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;    
 }
