@@ -4,13 +4,6 @@ Declaraciones
 Propiedades
 Valores*/
 
-body {
-    background: red;
-}
-
-/**/
-
-
 /*Selector de etiqueta*/
 /*Se usa el nombre de la etiqueta para el selector*/
 /*body {
@@ -35,3 +28,16 @@ body {
 /*#estiloFooter {
     background: red;
 }*/
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+}
